@@ -1,9 +1,10 @@
-package com.example.veterapp
+package com.example.veterapp.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import com.example.veterapp.R
 
 class ResetPasword : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,7 @@ class ResetPasword : AppCompatActivity() {
     }
 
     fun restLogin(){
-        val resetLogin = Intent(this, login::class.java)
+        val resetLogin = Intent(this, Login::class.java)
         startActivity(resetLogin)
     }
 }

@@ -16,28 +16,28 @@
         android:theme="@style/Theme.VeterApp"
         tools:targetApi="31">
         <activity
-            android:name=".Beginning"
+            android:name="com.example.veterapp.ui.view.Beginning"
             android:exported="false" />
         <activity
-            android:name=".logo2"
+            android:name="com.example.veterapp.ui.view.Logo2"
             android:exported="false" />
         <activity
-            android:name=".ResetPasword"
+            android:name="com.example.veterapp.ui.view.ResetPasword"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name="com.example.veterapp.ui.view.Register"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name="com.example.veterapp.ui.view.Login"
             android:exported="false" />
         <activity
-            android:name=".logo"
+            android:name="com.example.veterapp.ui.view.Logo"
             android:exported="false" />
         <activity
-            android:name=".Welcome"
+            android:name="com.example.veterapp.ui.view.Welcome"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.veterapp.ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

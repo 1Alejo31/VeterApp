@@ -1,9 +1,10 @@
-package com.example.veterapp
+package com.example.veterapp.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.veterapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun nextLogin(){
-        val viewLogin = Intent(this, login::class.java)
+        val viewLogin = Intent(this, Login::class.java)
         startActivity(viewLogin)
     }
 
