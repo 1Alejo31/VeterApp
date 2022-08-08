@@ -15,17 +15,6 @@
         app:cardCornerRadius="12dp"
         android:layout_margin="20dp">
 
-        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-            android:id="@+id/carousel"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:autoPlay="true"
-            app:autoPlayDelay="3000"
-            app:showNavigationButtons="false"
-            app:carouselType="SHOWCASE"
-            app:carouselGravity="CENTER"
-            tools:ignore="MissingConstraints" />
-
     </androidx.cardview.widget.CardView>
 
 
